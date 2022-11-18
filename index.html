@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/245762579c.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-niels.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#services">Kwaliteiten</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, Ik ben  <span>Niels</span><br>van Veen</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="Over mij-col-1">
+                <img src="images/about me 2.png">
+            </div>
+            <div class="Over mij-col-2">
+                <h1 class="sub-title">Over Mij</h1>
+                <p>Ik ben Niels van Veen. Ik ben 18 jaar oud en woon op Marken.<br>Ik ben in 2021 begonnen met de studie Business IT & Management op de HvA.<br>Daarnaast ben ik business engineer en UX/UI designer bij Daywize in Utrecht.<br>Designen doe ik met veel passie, drive en creatifiteit.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Vaardigheden')">Vaardigheden</p>
+                    <p class="tab-links" onclick="opentab('Ervaring')">Ervaring</p>
+                    <p class="tab-links" onclick="opentab('Opleidingen')">Opleidingen</p>
+                </div>
+                <div class="tab-contents active-tab" id="Vaardigheden">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Ervaring">
+                    <ul>
+                        <li><span>2022 - Huidig</span><br>Business Engineer en UI/UX bij Daywize</li>
+                        <li><span>2021 - 2022</span><br>Winkelmedewerker Albert Heijn Marken</li>
+                        <li><span>2022 - 2022</span><br>Bijlesdocent bij Studyworks</li>
+                        <li><span>2020 - 2020</span><br>Customer Journey Expert bij ING</li>
+                        <li><span>2017 - 2017</span><br>Administratief medewerker bij Speelink Cargo</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Opleidingen">
+                    <ul>
+                        <li><span>2021 - Huidig</span><br>Business IT & Management - Hogeschool van Amsterdam</li>
+                        <li><span>2016 - 2021</span><br>Havo - Don Bosco College Volendam</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Mijn kwaliteiten---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Mijn Kwaliteiten</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-droplet"></i>
+                <h2>UX/UI Design</h2>
+                <p>Ik ben een creatief persoon. Dit kan laat ik terugkomen in mijn designs.</p>
+              
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+     
+                <h2>Low-code</h2>
+                <p>Ik heb  ervaring met het low-code platform Mendix. Ik heb hier vaak mee gewerkt en beschik daarnaast over een Rapid Developer certificaat.</p>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+            
+                <h2>Analyseren</h2>
+                <p>Ik zie zeer snel verbanden binnen data. Ik kan daarom snel verbanden leggen over een data set.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Mijn werk------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mijn Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Mijn project.jpg">
+                <div class="layer">
+                    <h3>Daywize Master Omgeving</h3>
+                    <p>Tijdens dit project heb ik samen met Jason Teunissen de interface van de Daywize Master omgeving verbeterd.</p>
+                    <a href="https://nl.pinterest.com/nielsoavanveen/design-items/daywize-master-omgeving-home-screen/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ux ontwerp.jpg">
+                <div class="layer">
+                    <h3>Daywize Support App</h3>
+                    <p>Dit systeem wordt door Daywize gebruikt om de inkomende tickets te verwerken en beanwoorden. Hiervan heb ik de interface verbeterd.</p>
+                    <a href="https://nl.pinterest.com/nielsoavanveen/design-items/daywize-support-app/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/alvaro-reyes-KxVlKiqQObU-unsplash.jpg">
+                <div class="layer">
+                    <h3>Daywize Master Omgeving</h3>
+                    <p>Tijdens dit project heb ik samen met Jason Teunissen de interface van de Daywize Master omgeving verbeterd.</p>
+                    <a href="https://nl.pinterest.com/nielsoavanveen/design-items/daywize-verlof-aanvragen/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://nl.pinterest.com/nielsoavanveen/design-items/ " class="btn">Bekijk meer</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Neem contact met mij op!</h1>
+                <p><i class="fas fa-paper-plane"></i> niels.oa.van.veen@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0612884428</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/niels-van-veen-866493236/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/cv van Niels van Veen-3.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/mpznbewa" method="POST">
+                    <input type="text" name="Name" placeholder="Jouw Naam" required>
+                    <input type="email" name="Email" placeholder="Jouw Email" required>
+                    <textarea name="Message" rows="6" placeholder="Jouw Bericht"></textarea>
+                    <button type="submit" class="btn btn2">Versturen</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Niels van Veen.<i class="fas fa-heart"></i> 
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
